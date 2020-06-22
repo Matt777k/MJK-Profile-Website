@@ -15,7 +15,7 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-
+    <link rel="stylesheet" href="custom-style.css">
     <title>Professional Profile</title>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -49,10 +49,12 @@
     </nav>
   </head>
   <body>
-    <div class="container">
+    <main class="container">
+      <header>
       <h1>Contact Me</h1>
+    </header>
       <form>
-        <div class="form-group">
+        <section class="form-group">
           <label for="exampleFormControlInput1">Your Name</label>
           <input
             type="name"
@@ -60,8 +62,8 @@
             id="exampleFormControlInput1"
             placeholder="John Smith"
           />
-        </div>
-        <div class="form-group">
+        </section>
+        <section class="form-group">
           <label for="exampleFormControlInput1">Email address</label>
           <input
             type="email"
@@ -69,18 +71,24 @@
             id="exampleFormControlInput1"
             placeholder="name@example.com"
           />
-        </div>
-        <div class="form-group">
+        </section>
+        <section class="form-group">
           <label for="exampleFormControlTextarea1">Message</label>
           <textarea
             class="form-control"
             id="exampleFormControlTextarea1"
             rows="10"
           ></textarea>
-        </div>
+        </section>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
-    </div>
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-light text-center bottom:0">
+      <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
